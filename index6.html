@@ -5,67 +5,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
-    <header>
-        <img src="jarditou_logo.jpg" alt="logo_jarditou" style="width: 20%;height: 10%;"><br>
+<header>
+    <div id="logo"><img src="jarditou_logo.jpg" alt="logo_jarditou" style="width: 20%;height: 10%;">
         <p>
-            La qualité depuis 70 ans</p><br>
-        <ul>
+            Tout le jardin</p>
+    </div>
 
-            <li><a href="#accueil">Accueil</a></li>
+    <nav>
+        <a href="index8.html">Accueil</a>
+        <a href="index5.html">Tableau</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-            <li><a href="index5.html">Tableau</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <img src="promotion.jpg" alt="logo_jarditou" style="width: 80%;height: 80%;"><br>
-        <h2 id="contact">Accueil</h2>
-        <hr>
-    </header>
-    <p> * Ces zones sont obligatoires.</p>
-    <fieldset>
-        <legend>Vos coordonnées</legend>
-        <label for="nom"> Votre nom* :</label><input type="text" name="nom" id="nom"><br>
-        <label for="prénom">Votre prénom* :</label><input type="text" name="prénom" id="prénom"><br>
-        <br>
-        <label>Sexe* :</label> <input type="radio" name="couleur" value="Féminin" id="sexe_féminin"> <label for="sexe_féminin">Féminin</label>
-        <input type="radio" name="couleur" value="Masculin" id="sexe_masculin" checked> <label for="sexe_masculin">Masculin</label>
-        <br>
-        <br>
-        <label for="date">Date de naissance* :</label><input type="date" name="ddn" id="date"><br>
-        <label for="code_postal">Code postal* : </label><input type="text" name="Code postal" id="code_postal"><br>
-        <label for="adresse">Adresse :</label><input type="text" name="Adresse" id="adresse"><br>
-        <label for="ville">Ville :</label><input type="text" name="Ville" id="ville"><br>
-        <label for="email">Email* :</label><input type="email" name="email" id="email" placeholder="dave.holper@afpa.fr"><br>
+    <img src="promotion.jpg" alt="logo_jarditou" width="100%" height="auto">
 
-    </fieldset>
 
-    <fieldset>
-        <legend>Votre demande</legend>
 
-        Sujet* : <select name="couleur">
-            <option>Veuillez séléctionner un sujet</option>
-            <option>Mes commandes</option>
-            <option>Question sur un produit</option>
-            <option>Réclamation</option>
-            <option>Autres</option>
-        </select> <br>
-        <label for="question"> Votre question* :</label><textarea name="nom" id="question"></textarea><br>
-    </fieldset>
-    <input type="checkbox" name="couleur1" value="Bleu" checked> * J'accepte le traitement informatique de ce
-    formulaire<br>
+</header>
 
-    <input type="submit" value="Envoyer"> <input type="submit" value="Annuler">
-<footer>
-    <nav><ul>
-        <li><a href="#">Mentions légales</a></li>
-        <li><a href="#">Horaires</a></li>
-        <li><a href="#">Plan du site</a></li>
-</ul>
-</nav>
-</footer>
+
+    <section>
+        <div id="gauche">
+            <h2 id="contact">Contact</h2>
+            <p> * Ces zones sont obligatoires.</p>
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <label for="nom"> Votre nom* :</label><input type="text" name="nom" id="nom"><br>
+                <label for="prénom">Votre prénom* :</label><input type="text" name="prénom" id="prénom"><br>
+                <br>
+                <label>Sexe* :</label> <input type="radio" name="couleur" value="Féminin" id="sexe_féminin"> <label
+                    for="sexe_féminin">Féminin</label>
+                <input type="radio" name="couleur" value="Masculin" id="sexe_masculin" checked> <label
+                    for="sexe_masculin">Masculin</label>
+                <br>
+                <br>
+                <label for="date">Date de naissance* :</label><input type="date" name="ddn" id="date"><br>
+                <label for="code_postal">Code postal* : </label><input type="text" name="Code postal"
+                    id="code_postal"><br>
+                <label for="adresse">Adresse :</label><input type="text" name="Adresse" id="adresse"><br>
+                <label for="ville">Ville :</label><input type="text" name="Ville" id="ville"><br>
+                <label for="email">Email* :</label><input type="email" name="email" id="email"
+                    placeholder="dave.holper@afpa.fr"><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Votre demande</legend>
+
+                Sujet* : <select name="couleur">
+                    <option>Veuillez séléctionner un sujet</option>
+                    <option>Mes commandes</option>
+                    <option>Question sur un produit</option>
+                    <option>Réclamation</option>
+                    <option>Autres</option>
+                </select> <br>
+                <label for="question"> Votre question* :</label><textarea name="nom" id="question"></textarea><br>
+            </fieldset>
+            <input type="checkbox" name="couleur1" value="Bleu" checked> * J'accepte le traitement informatique de ce
+            formulaire<br>
+
+            <input type="submit" value="Envoyer"> <input type="submit" value="Annuler">
 </body>
+<footer>
+    <nav>
+        <a href="#">Mentions légales</a>
+        <a href="#">Horaires</a>
+        <a href="#">Plan du site</a>
+
+    </nav>
+
+</footer>
+</div>
+<div id="droite">
+    [COLONNE DROITE]
+</div>
+</section>
+
 
 
 </html>

@@ -1,0 +1,54 @@
+nav{  
+ 
+    background-color: black;
+    background-size:100%;
+    padding: 15px 0px 15px 0px;
+}
+  
+a {color: white;}
+
+
+ section{
+    display: flex;
+    flex-direction: row;
+ }
+ #droite{
+    background-color: rgb(197, 189, 189);
+    width: 25%;
+ }
+
+#gauche{
+    width: 75%;
+}
+
+#logo
+{display: flex;
+justify-content: space-between;
+margin-right: 10%;
+align-items: center;
+font-size: 36px;}
+@media screen and (max-width: 576px) 
+{ 
+    h1 
+    { 
+        font-size : 20px;
+    } 
+a{
+    font-size: 90%;
+}
+} 
+
+@media screen and (max-width: 768px) 
+{ 
+    h1 
+    { 
+        font-size : 40px; 
+    } 
+}     
+     
+
+img 
+{
+     max-width: 100%;
+     height: auto;
+}
